@@ -97,9 +97,10 @@ section img {
 article {
 	float: left; 
 	color: white; 
-	font-zize: 34; 
+	font-size: 34; 
 	text-align: center; 
 	padding:60px; 
+	padding-bottom: 200px; 
 }
 
 article p {
@@ -110,6 +111,24 @@ article p {
 article h1{
 	font-size: 34px; 
 	padding-bottom: 40px; 
+}
+
+footer {
+	padding: 50px; 
+	height: 1000px;  
+}
+
+footer p{
+	font-size: 11px; 
+	color: #c2c2c2; 
+}
+
+.info {
+	float: left; 
+}
+
+.ad {
+	float: right; 
 }
 
 
