@@ -94,6 +94,23 @@ section img {
 	
 }
 
+article {
+	float: left; 
+	color: white; 
+	font-zize: 34; 
+	text-align: center; 
+	padding:60px; 
+}
+
+article p {
+	color: #c2c2c2; 
+	font-size: 18px; 
+}
+
+article h1{
+	font-size: 34px; 
+	padding-bottom: 40px; 
+}
 
 
 
