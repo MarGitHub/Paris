@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("../images/body-bg.jpg"); 
+	 
+}
+
+/* header */
+
+header {
+	width:97,2%;
+	height:112px;
+	padding: 20px 20px 0px; 
+	background-color:#FFF;
+	z-index:1;
+	
+}
+
+.left-side{
+	float: left; 
+	margin-left: 35px; 
+}
+
+#logo h1 {
+	font-size: 33px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#logo a{
+	color: inherit;
+	text-decoration: none; 
+}
+
+#slogan p {
+	color: #787878; 
+	font-size: 18px; 
+}
+
+
+.right-side{
+	text-align: right;
+	padding: 10px 20px 35px 0;
+}
+
+.right-side a{
+	text-decoration: none; 
+	color: #787878;	
+	}
+	
+
+.search a {
+	padding: 0 5px 0 5px;
+	font-size: 11px;
+}
+
+.search li {
+	display:inline-block;
+}
+
+
+
+.nav a{
+	padding: 0px 9px 0 9px; 
+	font-size: 18px;
+}
+
+.nav a:last-child{padding-right: 0}
+
+.position {
+	color: #303132;
+	font-weight: 700;
+	}
+	
+/* content */
+	
+main {
+	padding:30px 20px 60px 20px;
+	}
+
+.nav2 li{
+	display: inline-block;
+	margin-right: 18px;
+	margin-bottom: 30px;
+	}
+
+.nav2 a {
+	color: #c2c2c2;
+	font-size: 14px;
+	text-decoration: none;
+	}
+			
+.nav2 .position2 {
+	color: #fff;
+	font-weight: 700;
+	}
+
+.links { 
+	background-color: rgba(204, 204, 204, 0.2);
+	padding: 8px 0 12px 0;
+	border-radius: 2px;
+	text-align: center;
+	}
+	
+.links li {
+		display:inline-block;	
+	}
+
+.links a {
+	color: #c2c2c2;
+	font-size: 12px;
+	text-decoration: none;
+	padding-right: 15px;
+	}
+
+
+.links .position3 {
+	color: #fff;
+	font-weight: 700;
+	}
+	
+article {
+	text-align: center;
+	color: #fff;
+	width:1200px;
+	margin: 0 auto;
+
+	
+}
+article h1{
+	margin: 0 0 30px 0;
+	font-size: 34px;
+	font-weight: 400;
+	}
+article p {
+	font-size: 14px;
+	color: #c2c2c2;
+	font-weight: 400;
+	text-align: justify;
+	margin-bottom: 80px;
+	}
+article h3 {
+	font-size: 16px;
+	margin: 20px 0;
+	font-weight: 400;
+	text-align: left;
+	}
+
+.sub {
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	}
+	
+/* footer */
+
+footer {
+	padding: 50px; 
+	height: 200px;  
+}
+
+footer p {
+	font-size: 11px; 
+	color: #c2c2c2; 
+}
+
+.info {
+	float: left; 
+}
+
+.ad {
+	float: right; 
+}
