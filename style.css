@@ -9,6 +9,8 @@ body {
 	 
 }
 
+/* header */
+
 header {
 	width:97,2%;
 	height:112px;
@@ -24,39 +26,52 @@ header {
 }
 
 #logo h1 {
-	color: red; 
-	font-size: 34px; 
+	font-size: 33px;
+	color: #ff0000;
+	font-weight: bold;
 }
 
 #slogan p {
 	color: #787878; 
-	font-size: 20px; 
+	font-size: 18px; 
 }
 
 
 .right-side{
-	float: right; 
-	margin-right:23px; 
+	text-align: right;
+	padding: 10px 20px 35px 0;
 }
 
-.right-side ul, li, a{
-	color: #787878; 
-	
+.right-side a{
+	text-decoration: none; 
+	color: #787878;	
 	}
+	
 
-
-.search ul, li, a {
-	display: inline-block; 
+.search a {
+	padding: 0 5px 0 5px;
 	font-size: 11px;
 }
 
-
-
-nav ul, li, a {
-	font-size: 18px; 
-	margin-left: 5px; 
+.search li {
+	display:inline-block;
 }
 
+
+
+.nav a{
+	padding: 0px 9px 0 9px; 
+	font-size: 18px;
+}
+
+.nav a:last-child{padding-right: 0}
+
+.position {
+	color: #303132;
+	font-weight: 700;
+	}
+
+/* content */
 
 section first-child{ }
 section{
@@ -112,6 +127,8 @@ article h1{
 	font-size: 34px; 
 	padding-bottom: 40px; 
 }
+
+/* footer */
 
 footer {
 	padding: 50px; 
